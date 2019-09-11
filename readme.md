@@ -5,7 +5,7 @@
 
 为了方便更多开发者能够在`PC`微信做更多有意义的事情，现改变项目方向，提供两个针对不同人群的功能。
 
-1. 普通用户依然可以直接使用原来的多开工具，直接下载可执行程序即可。[下载地址](https://github.com/anhkgg/SuperWeChatPC/archive/v1.1.3.zip)，详细使用方法请看[普通用户使用SuperWeChatPC](docs/normal.md)。
+1. 普通用户依然可以直接使用原来的多开工具，直接下载可执行程序即可。~~[下载地址](https://github.com/anhkgg/SuperWeChatPC/archive/v1.1.3.zip)~~，详细使用方法请看[普通用户使用SuperWeChatPC](docs/normal.md)。(**请注意：** 由于微信更新，`2.6.8.52`以后，老版本`WeChat多开v0.0.1.exe`已经失效，请直接使用[sdk/SuperWechat.zip](https://github.com/anhkgg/SuperWeChatPC/raw/master/sdk/SuperWeChat.zip)，也可通过公众号获取。)
 2. 针对开发者，提供`WeChatSDK`，开放操作微信的各种接口，可以进行二次开发，具体使用方法请看[WeChatSDK开发指南](docs/sdk.md)。
 
 `SuperWeChatPC`支持功能：
@@ -14,6 +14,7 @@
 3. 语音消息备份（`>=2.6.6.28`）
 4. 消息发送接口（`>=2.6.6.44`）
 5. 接受消息接口，3种消息（`>=2.6.7.40`)
+6. 新增：<font color="red">**打破微信100M文件发送限制，支持任意大小文件发送（`>=2.6.8.65`）**</font>，使用方式见[更新日志](docs/update.md)。
 
 **`WeChatSDK`目前已经开放`C++`、`Python`、`Java`、`C#`接口。** 具体请看[WeChatSDK开发指南](docs/sdk.md)。
 
